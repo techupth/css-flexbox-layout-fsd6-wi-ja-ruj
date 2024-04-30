@@ -1,1 +1,65 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(50deg, #e994e8, #6689f0);
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  background-color: hsla(0, 100%, 100%, 0.2);
+  width: 200px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  height: fit-content;
+  font-weight: 500;
+  gap: 20px;
+}
+
+button {
+  background-color: yellow;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-weight: 900;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.seperator-bar {
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.2);
+  width: 100%;
+  padding-bottom: 7px;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
